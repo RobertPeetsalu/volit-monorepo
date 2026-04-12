@@ -106,7 +106,7 @@ The application would distinguish between following authorization roles:
 
 * **Moderator \-** a voter with an additional revocable moderator credential in their wallet, who is employed by an institution to flag and hide illegal content. 
 
-* Lawyer \- a voter with an additional revocable lawyer credential in their wallet, who is employed by an institution to post Legal type reviews to proposals and commit edits to Current project versions to improve their legal language. 
+* Lawyer \- a voter with an additional revocable lawyer credential in their wallet, who is employed by an institution to post Legal type reviews to proposals and commit edits to Candidate versions of Legislative and Institutional projects to improve their legal language. 
 
 * **Election manager** \- a voter with an additional revocable election manager credential in their wallet, who is employed by an institution to organize elections. 
 
