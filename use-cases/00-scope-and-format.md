@@ -1,0 +1,13 @@
+# Use case scope and format
+
+This document is for maintaining concise definitions of expected future user workflows that Volit (this liquid democracy web application) should support, used for reference when making changes to the application. 
+
+Each use case should define: 
+* A unique use case name that indicates what the user wants to achieve.
+* Its possible starting points or triggering events.
+* User roles that can initiate this use case.
+* Expected artifacts and state changes upon successful completion of the main flow.
+* Core workflow steps as a numbered list. If a step is a condition for branching into an alternative flow or a possible failure mode, then it starts a sub-level list with steps that follow and may reference a previous or following step in the main flow if the user can return to the main flow. 
+
+# Use cases
+

@@ -98,11 +98,7 @@ Until then, prefer a simpler single-application repository structure.
 
 ## Identity and Authentication
 
-Authentication is planned around `OID4VP` using `walt.id`.
-
-Adjustment:
-
-Target the current `walt.id Verifier2` approach and `OID4VP 1.0`, rather than older verifier flows.
+Authentication is planned using walt.id Verifier2 and `OID4VP 1.0`.
 
 Intended role of identity:
 
@@ -161,11 +157,4 @@ In particular, the project will still need to prove or design for:
 
 ## Current Repository State
 
-At the time of writing:
-
-- `intent.md` describes the high-level product and political intent
-- `use-cases.md` exists but does not yet contain detailed use cases
-- `AGENTS.md` defines the default agent workflow for this repository
-- there is no confirmed application code, test harness, or deployment configuration in the repository yet
-
-Future architecture decisions should be added to this document as the implementation becomes concrete.
+At the time of writing there is no confirmed application code, test harness, or deployment configuration in the repository yet. Future architecture decisions should be added to this document as the implementation becomes concrete.
