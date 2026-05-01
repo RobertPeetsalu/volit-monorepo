@@ -157,4 +157,4 @@ In particular, the project will still need to prove or design for:
 
 ## Current Repository State
 
-At the time of writing there is no confirmed application code, test harness, or deployment configuration in the repository yet. Future architecture decisions should be added to this document as the implementation becomes concrete.
+At the time of writing there is no confirmed application code, schema, functional or non-functional requirements, test harness, PR template, CI pipeline, or deployment configuration in the repository yet. Future architecture decisions should be added to this document as the implementation becomes concrete.

@@ -12,20 +12,6 @@ Letting citizens continue editing any version of a project, even Proposed, Expir
 
 Every time a citizen edits a version of a problem or a project and **commits** their edits, they become a **follower** of this problem or project and their edits are saved and published as a new **Committed version**. Voters following this problem or project are notified to **approve** or **disapprove** the edits. The commit's author is automatically counted as approving of it, if they are also of voting age. 
 
-Problem versions can have following state flows: 
-
-   Committed → Candidate ↔ Past   
-                   ↓	       ↑  
-                  🕥 → Current
-
-Project versions can have following state flows: 
-
-   Committed → Candidate ↔ Past   
-                   ↓  
-  Expired ←🕥← Proposed → Enacted →🕥→ In Implementation →🕥→ Implemented
-                   ↓
-               Rejected
-
 Every problem and project can have any number of Committed and Past versions and up to one Candidate version**.** Problems can also have up to one Current version. Projects can also have any number of Proposed, Expired, Rejected, Enacted, In Progress and Implemented versions. Each version can only be in one of these states at once. 
 
 Every voter can approve or disapprove any Committed, Candidate, Current or Past version of a problem or a project at any time. They approve or disapprove a version with their own vote and with all the votes delegated to them. 

@@ -1,10 +1,10 @@
 # Intent
 
-This index links to focused intent chapters. Read only relevant chapters for the current task.
+This index links to chapters of a document describing the intent behind building Volit - a liquid democracy application for state governance. Read only chapters you find relevant for your current task.
 
 ## Chapters
-- [Continuous online liquid democracy](intent/00-continuous-online-liquid-democracy.md)
-- [What would a transition look like?](intent/01-political-transition-from-representative-democracy.md)
+- [What is continuous online liquid democracy?](intent/00-continuous-online-liquid-democracy.md)
+- [What would a transition from representative democracy look like?](intent/01-political-transition-from-representative-democracy.md)
 - [Authentication](intent/02-authentication.md)
 - [Authorization and roles](intent/03-authorization-and-roles.md)
 - [Societal problems and their progress metrics](intent/04-problems-and-their-progress-metrics.md)
