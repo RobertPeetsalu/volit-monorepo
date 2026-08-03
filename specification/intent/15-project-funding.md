@@ -1,10 +1,10 @@
-## Project funding
+## Project funding {#project-funding}
 
 Every voter can pledge both their personal money and government's budget to a Proposed project version if they voted in favour of it.
 
 Participatory budgeting would work as a crowdfunding platform where every year the government provides every voter with an equal pledging budget that they can allocate among all Proposed Executive and Institutional projects and their stretch goals. 
 
-The pledged sum will only be spent if the Proposed project version becomes Enacted and only within the project's duration period (In Implementation status) and only according to the budget of its core activities and stretch goals. 
+The pledged sum will only be spent if the Proposed project version becomes Enacted and only within the project's duration period (In Implementation state) and only according to the budget of its core activities and stretch goals. 
 
 The amount that each voter can pledge to projects from the government's budget is defined by law and stays the same until a Legislative project is Enacted to change this law. It is reasonable to change this amount each year to make sure that the government spending balances out the excess or lack of private spending and smooths out the business cycle. 
 

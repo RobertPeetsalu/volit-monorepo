@@ -8,7 +8,7 @@ Each problem is displayed with its title, total priority and ministerial domains
 
 An authenticated citizen can also see the priority grades that they or their delegate has assigned to the problems and visually distinguish "unread" problems (they have not viewed its Current version yet) as well as additional filters to only show "unread" or ungraded problems.
 
-Selecting a scope (global, union/federal, state, regional or local) will only show problems of the selected scope. If the user is authenticated, the problems are automatically filtered down to the user's administrative division of residence. They can select to view problems of another administrative division manually or clear the filter to view problems of all administrative divisions of the selected scope. 
+Selecting a scope level (treaty, country, state, province, prefecture, county, township or community) will only show problems of the selected scope. If a sub-country level is selected, a specific administrative division can be selected to further filter the results. If the user is authenticated, problems are filtered down to the user's administrative division of residence by default. They can select to view projects of another division manually or clear the filter to view projects of all divisions. 
 
 Selecting a ministerial domain will only show problems of that domain. 
 
@@ -42,7 +42,7 @@ An authenticated citizen can see the votes that they or their delegate has cast 
 
 Selecting Legislative, Executive and/or Institutional project types will only show versions of the selected types. 
 
-Selecting a scope (global, union/federal, state, regional or local) will only show versions of the selected scope. If the user is authenticated, the project versions are automatically filtered down to the user's administrative division of residence. They can select to view projects of another administrative division manually or clear the filter to view projects of all administrative divisions of the selected scope. 
+Selecting a scope level (treaty, country, state, province, prefecture, county, township or community) will only show versions of the selected scope. If a sub-country level is selected, a specific administrative division can be selected to further filter the results. If the user is authenticated, project versions are filtered down to the user's administrative division of residence by default. They can select to view projects of another division manually or clear the filter to view projects of all divisions. 
 
 Selecting a ministerial domain will only show project versions where this domain is set as the responsible domain. 
 
@@ -85,4 +85,3 @@ So at the end of such a sorted list would be problems, project versions or revie
 ### Tiebreaking {#tiebreaking}
 
 Aside from consensus, projects should also be ordered by how close they are to the number of votes needed to Enact a Proposed version. So if a project has to have 1% of votes more in favour than against to get Enacted, then projects with 0.99% or 1.01% more votes in favour than against would be some of the first projects to be shown to users while projects that are far ahead (e.g. 31%) or far behind (e.g. \\-29%) in votes in favour minus votes against as a ratio of total eligible votes would be low in the sorting order. This helps prevent minorities from forcing through projects opposed by the majority by bringing close call projects to voters' attention. 
-

@@ -7,12 +7,15 @@ During an election's nomination period, a voter can nominate themselves as a can
 During an election's voting period, voters can vote based on the [voting method](https://www.lesswrong.com/posts/D6trAzh6DApKPhbv4/a-voting-theory-primer-for-rationalists) configured for the system. By default, following voting rules are used:
 
 * For single winner elections: [STAR voting](https://electionscience.github.io/vse-sim/) with a range from 0 to 10 as the method with highest known voter satisfaction both with and without strategizing voters.  
-* For multi-winner elections where winners have …  
+
+* For multi-winner elections where winners should have …  
+
   * the most proportional representation of voters: [Single transferable vote](https://en.wikipedia.org/wiki/Single_transferable_vote).  
+
   * the most diverse representation of voters (winners distributed evenly across voter views): [RangingCC](https://arxiv.org/abs/1901.09217).  
-  * the least distance from views of all voters (winners closest to the center of all voter views): [k-Borda](https://en.wikipedia.org/wiki/Multiwinner_voting#Positional_scoring_rules_for_committees).
+  
+  * the least distance from views of all voters (winners are candidates who are closest to the center of all voter views): [k-Borda](https://en.wikipedia.org/wiki/Multiwinner_voting#Positional_scoring_rules_for_committees).
 
-Liquid democracy makes multi-winner elections unnecessary within the state itself, but they are necessary to elect representatives of the state in international organizations. 
+Liquid democracy makes multi-winner elections unnecessary within the country itself, but they are necessary to elect the country's representatives in international organizations.  
 
- 
 
