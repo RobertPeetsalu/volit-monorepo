@@ -1,4 +1,4 @@
-## Aggregating values of society
+## Aggregating values of society {#aggregating-values-of-society}
 
 What the whole society values \- a **social welfare index** can be expressed as the combination of all metrics, each weighted by its importance \- a kind of [cardinal](https://en.wikipedia.org/wiki/Cardinal_utility) [social welfare function](https://en.wikipedia.org/wiki/Social_welfare_function). For that, metrics have to first be scaled to a comparable size (normalized): 
 

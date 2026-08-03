@@ -1,4 +1,4 @@
-## Updating domain accuracy scores
+## Updating domain accuracy scores {#updating-domain-accuracy-scores}
 
 A **realized prediction** is one of the pair of predictions whose assumption came true. So if a Proposed project did not become Enacted, then the realized prediction is one that predicted the project's metric given the project is not Enacted and vice versa.
 

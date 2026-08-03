@@ -5,15 +5,29 @@ Below are ASCII diagrams that document all allowed states of each entity that ha
 
 ## Problem version state flows
 
-Committed → Candidate ↔ Past
-                ↓	     ↑
-               🕥 →  Current
+* Committed to Candidate
+
+* Candidate to Past and back 
+
+* Candidate to Current automatically over time
+
+* Current to Past
 
 ## Project version state flows
 
-Committed → Candidate ↔ Past
-                ↓
-Expired ←🕥← Proposed → Enacted →🕥→ In Implementation →🕥→ Implemented
-                ↓
-            Rejected
+* Committed to Candidate
+
+* Candidate to Past and back 
+
+* Candidate to Proposed
+
+* Proposed to Expired automatically over time
+
+* Proposed to Rejected
+
+* Proposed to Enacted
+
+* Enacted to In Implementation automatically over time
+
+* In Implementation to Implemented automatically over time
 

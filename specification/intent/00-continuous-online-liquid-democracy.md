@@ -2,15 +2,15 @@
 
 A policy proposal to transition societies to democratic self-governance empowered by open source software,
 by Robert Peetsalu,
-published under the [CC0 1.0 license](https://creativecommons.org/publicdomain/zero/1.0/).
+published under the [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
 # Democracy in decline
 
-Democracy [has been in decline globally](https://ourworldindata.org/grapher/countries-that-are-democratizing-and-autocratizing) for the past decades [both in quality and in quantity](https://www.v-dem.net/publications/democracy-reports/). Between 2004 and 2024, 23% of the global population went from living in a democracy to living in an autocracy and the share of people living in an autocratizing state rose from 7% to 38%. Globally, voter turnout has fallen by almost 10% in the last 15 years. 
+Democracy [has been in decline globally](https://ourworldindata.org/grapher/countries-that-are-democratizing-and-autocratizing) for the past decades [both in quality and in quantity](https://www.v-dem.net/publications/democracy-reports/). Between 2004 and 2024, 23% of the global population went from living in a democracy to living in an autocracy and the share of people living in autocratizing countries rose from 7% to 38%. Globally, voter turnout has fallen by almost 10% in the last 15 years. 
 
 Most citizens have a minority view on at least some topics. But in a representative democracy no party's platform can accurately represent a citizen who has nuanced views. Yet parties are targeting their campaigns and defining their programs to match a handful of stereotypes of people's political views that don't really represent anyone. 
 
-Citizens who have seen their relative status in society fall and who are not aware of other political alternatives are captured by fascist populists who stoke fear of the other and incite hate for other religions, nationalities and states and promise to return the good old days. Due to misidentifying the root causes of economic hardship, these populists fail to fulfill their promise of improving the relative status of their voters and instead cause inflation through protectionism and furthering monopolization by picking winners among competing firms. They accuse immigrants of all the problems despite immigrants actually helping to alleviate many of them. But most importantly, they overstep their mandate, degrade the rule of law, substitute or pressure judges, jail their opposition and journalists or otherwise undermine separation of powers. 
+Citizens who have seen their relative status in society fall and who are not aware of other political alternatives are captured by fascist populists who stoke fear of the other and incite hate for other religions and nationalities and promise to return the good old days. Due to misidentifying the root causes of economic hardship, these populists fail to fulfill their promise of improving the relative status of their voters and instead cause inflation through protectionist trade policy and deepen monopolization by picking winners among competing firms. They accuse immigrants of all the problems despite immigrants actually helping to alleviate many of them. But most importantly, they overstep their mandate, degrade the rule of law, substitute or pressure judges, jail their opposition and journalists or otherwise undermine separation of powers. 
 
 # What is continuous online liquid democracy? 
 
