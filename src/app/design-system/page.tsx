@@ -40,8 +40,8 @@ export default function DesignSystemPage() {
         </div>
       </header>
 
-      <section className="design-system-section">
-        <SectionLabel>COLOR TOKENS</SectionLabel>
+      <section className="design-system-section" aria-labelledby="color-tokens-heading">
+        <SectionLabel as="h2" id="color-tokens-heading">COLOR TOKENS</SectionLabel>
         <div className="design-token-grid">
           {colorTokens.map((color) => (
             <div className="design-token" key={color.token}>
@@ -54,8 +54,8 @@ export default function DesignSystemPage() {
         </div>
       </section>
 
-      <section className="design-system-section">
-        <SectionLabel>TYPE AND ACTIONS</SectionLabel>
+      <section className="design-system-section" aria-labelledby="type-actions-heading">
+        <SectionLabel as="h2" id="type-actions-heading">TYPE AND ACTIONS</SectionLabel>
         <div className="design-system-grid design-system-grid-wide">
           <Surface className="design-type-card">
             <p className="eyebrow">SECTION EYEBROW</p>
@@ -76,11 +76,11 @@ export default function DesignSystemPage() {
         </div>
       </section>
 
-      <section className="design-system-section">
-        <SectionLabel>REUSABLE PRIMITIVES</SectionLabel>
+      <section className="design-system-section" aria-labelledby="primitives-heading">
+        <SectionLabel as="h2" id="primitives-heading">REUSABLE PRIMITIVES</SectionLabel>
         <div className="design-system-grid">
           <Surface className="design-example-card">
-            <SectionLabel action={<span className="version-label">Updated just now</span>}>STATUS</SectionLabel>
+            <SectionLabel as="h3" action={<span className="version-label">Updated just now</span>}>STATUS</SectionLabel>
             <div className="design-status-row">
               <StatusPill status="Current" />
               <StatusPill status="Proposed" />
@@ -88,24 +88,24 @@ export default function DesignSystemPage() {
               <StatusPill status="Candidate" />
             </div>
             <div className="design-avatar-row">
-              <Avatar initials="RA" color="var(--purple)" size="sm" />
-              <Avatar initials="L4" color="var(--green)" />
-              <Avatar initials="NS" color="var(--gold)" size="lg" />
+              <Avatar initials="RA" color="var(--purple)" size="sm" label="Rook Atlas" />
+              <Avatar initials="L4" color="var(--green)" label="Lumen 42" />
+              <Avatar initials="NS" color="var(--gold)" size="lg" label="North Star" />
               <span>Stable pseudonymous identity, never civil identity.</span>
             </div>
           </Surface>
           <Surface className="design-example-card">
-            <SectionLabel action={<span className="version-label">78% pledged</span>}>PROGRESS</SectionLabel>
-            <h3>Homes First programme</h3>
+            <SectionLabel as="h3" action={<span className="version-label">78% pledged</span>}>PROGRESS</SectionLabel>
+            <h4>Homes First programme</h4>
             <p>Reusable progress treatment for funding, implementation, and measurable outcomes.</p>
-            <ProgressBar value={78} />
+            <ProgressBar value={78} label="Homes First programme funding progress" />
             <div className="design-progress-meta"><span>€968M committed</span><strong>€1.24B goal</strong></div>
           </Surface>
         </div>
       </section>
 
-      <section className="design-system-section">
-        <SectionLabel>RADIUS AND LAYOUT</SectionLabel>
+      <section className="design-system-section" aria-labelledby="radius-layout-heading">
+        <SectionLabel as="h2" id="radius-layout-heading">RADIUS AND LAYOUT</SectionLabel>
         <Surface className="design-radius-card">
           <div className="design-radius-row">
             <div className="design-radius-sample design-radius-control"><code>--radius</code><small>controls</small></div>
