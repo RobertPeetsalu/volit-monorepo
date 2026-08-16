@@ -2,7 +2,7 @@
 
 Most requirements in Volit are functional - they describe expectations to the application's behavior in response to user interaction in a particular view. To make requirements easy to find and minimize their duplication, they are organized into Markdown files in the `requirements/views/` folder and named after the views whose behavior they define. 
 
-To avoid repeating functional requirements for components that appear in multiple views, they should be described once in `requirements/reused-components.md` and referenced from each view that they are used in. Typical examples are navigation menu, header, footer, breadcrumbs, logos, toast messages, general behavior of panes and modals, etc.
+The visual conventions for reusable interface components are documented in `requirements/ui-design-system.md`.
 
 As cron jobs are not user initiated, they should be described in a separate `requirements/cron-jobs.md` file.
 

@@ -44,7 +44,12 @@ import {
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { useMemo, useState } from "react";
+import { Avatar } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
+import { ProgressBar } from "@/components/ui/progress-bar";
+import { SectionLabel } from "@/components/ui/section-label";
+import { StatusPill } from "@/components/ui/status-pill";
+import { Surface } from "@/components/ui/surface";
 import { cn } from "@/lib/utils";
 
 type ViewId =
@@ -237,23 +242,6 @@ function formatMoney(value: number) {
   return new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 }).format(value);
 }
 
-function StatusPill({ status }: { status: string }) {
-  const tone = status === "Proposed" || status === "Voting open" ? "gold" : status === "Enacted" || status === "In implementation" ? "green" : status === "Current" ? "blue" : "muted";
-  return <span className={cn("status-pill", `status-${tone}`)}><span className="status-dot" />{status}</span>;
-}
-
-function Avatar({ initials, color, size = "md" }: { initials: string; color: string; size?: "sm" | "md" | "lg" }) {
-  return <span className={cn("avatar", `avatar-${size}`)} style={{ backgroundColor: color }}>{initials}</span>;
-}
-
-function ProgressBar({ value, color = "#e9b949" }: { value: number; color?: string }) {
-  return <div className="progress-track"><span style={{ width: `${Math.max(0, Math.min(100, value))}%`, backgroundColor: color }} /></div>;
-}
-
-function SectionLabel({ children, action }: { children: React.ReactNode; action?: React.ReactNode }) {
-  return <div className="section-label"><span>{children}</span>{action}</div>;
-}
-
 export default function VolitApp() {
   const [activeView, setActiveView] = useState<ViewId>("overview");
   const [selectedItem, setSelectedItem] = useState<{ type: ItemType; id: string } | null>(null);
@@ -394,7 +382,7 @@ function MetricCard({ item, title, value, change, note, color, icon }: { item?: 
   const metricTitle = title ?? item?.metric ?? "Metric";
   const metricValue = value ?? item?.metricValue ?? "—";
   const metricChange = change ?? item?.metricChange ?? "—";
-  return <div className="metric-card"><div className="metric-card-top"><span className="metric-icon" style={{ color: color ?? item?.color }}>{icon}</span><span className="metric-change">{metricChange}</span></div><strong>{metricValue}</strong><h3>{metricTitle}</h3><p>{note ?? "A transparent measure updated from public statistics"}</p><ProgressBar value={metricValue.includes("%") ? Number.parseFloat(metricValue) * 4 : 62} color={color ?? item?.color} /></div>;
+  return <Surface className="metric-card"><div className="metric-card-top"><span className="metric-icon" style={{ color: color ?? item?.color }}>{icon}</span><span className="metric-change">{metricChange}</span></div><strong>{metricValue}</strong><h3>{metricTitle}</h3><p>{note ?? "A transparent measure updated from public statistics"}</p><ProgressBar value={metricValue.includes("%") ? Number.parseFloat(metricValue) * 4 : 62} color={color ?? item?.color} /></Surface>;
 }
 
 function TimelineRow({ version, state, title, date, author, active }: { version: string; state: string; title: string; date: string; author: string; active?: boolean }) {
