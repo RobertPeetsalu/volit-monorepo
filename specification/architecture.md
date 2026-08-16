@@ -15,7 +15,7 @@ Volit will initially be built as a web application with:
 - `Next.js` as the frontend application framework
 - `Vercel` as the hosting and deployment platform
 - `Convex` as the initial backend application platform and database
-- `shadcn/ui`, `Tailwind CSS`, `Lucide`, and the `Caffeine` theme for the user interface
+- `shadcn/ui`, `Tailwind CSS` and `Lucide` for the user interface
 - `pnpm` as the package manager
 - `GitHub` as the source hosting and collaboration platform
 
@@ -63,7 +63,7 @@ Constraint:
 
 ### UI Stack
 
-`shadcn/ui`, `Tailwind CSS`, `Lucide`, and the `Caffeine` theme are approved for the UI layer.
+`shadcn/ui`, `Tailwind CSS` and `Lucide` are approved for the UI layer.
 
 Reasons:
 
