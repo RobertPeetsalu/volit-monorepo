@@ -31,8 +31,11 @@ Use the semantic aliases at the top of `src/app/globals.css` rather than literal
 | Alternate accent text | `--purple-foreground` |
 | Keyboard focus | `--focus` and `--focus-on-dark` |
 | Shared radius base | `--radius` |
+| Recurring surfaces | `--surface-soft`, `--surface-subtle`, `--surface-success`, `--surface-warning`, `--surface-purple`, `--surface-blue` |
+| Recurring text roles | `--text-subtle`, `--text-muted`, `--text-meta`, `--text-ui`, `--text-strong`, `--text-success` |
+| Recurring border roles | `--border-soft`, `--border-subtle`, `--border-hover` |
 
-Typography uses relative, readable defaults: `--font-size-body` is 1rem, supporting text is 0.875rem, labels and metadata are 0.75rem, and body line height is 1.5. Meaningful text must not be reduced below 0.75rem. Accent fill tokens are not safe as text colors on light surfaces; use their `*-foreground` aliases for text.
+Typography uses relative, readable defaults: `--font-size-body` is 1rem, supporting text is 0.875rem, labels and metadata are 0.75rem, and body line height is 1.5. Meaningful text must not be reduced below 0.75rem. Accent fill tokens are not safe as text colors on light surfaces; use their `*-foreground` aliases for text. 
 
 New colors should be added to the token section first. New views should not introduce one-off hex, RGB, HSL, or OKLCH values in component code.
 
@@ -46,6 +49,9 @@ The following primitives are available from `@/components/ui`:
 - `StatusPill` for state labels with a consistent status dot.
 - `Avatar` for pseudonymous participant initials. Provide `label` unless the avatar is explicitly decorative.
 - `ProgressBar` for percentages and funding/metric progress. Provide a meaningful `label` describing what the percentage measures.
+- `Breadcrumbs` for the current location within the application shell.
+- `Modal` for dialogs and overlays. It provides dialog semantics, Escape dismissal, focus containment, focus restoration, and a shared backdrop/close control.
+- `Toast` for short-lived status feedback with a polite live region.
 
 Use Lucide icons for interface actions and keep icon sizes consistent with the surrounding text.
 
@@ -64,7 +70,6 @@ Use Lucide icons for interface actions and keep icon sizes consistent with the s
 - Use `--ink`, `--ink-soft`, `--muted`, or the accent `*-foreground` tokens for text. Do not use light accent fills as text colors on light surfaces.
 - Use `--control-border` for borders that identify an interactive control; reserve `--line` for decorative dividers.
 - Keep meaningful text at or above the shared 0.75rem label size, and use the body/supporting sizes for readable content.
-- Keep interactive targets at least 24px in both dimensions; prefer the shared Button sizes for larger controls.
 - Future dialogs and modal overlays must expose dialog semantics, move focus into the dialog, keep focus inside while open, support Escape dismissal where appropriate, and return focus to the invoking control when closed.
 - Test new layouts at desktop, tablet, and narrow mobile widths.
 - Do not use color as the only indication of a state or outcome.

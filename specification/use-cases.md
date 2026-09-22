@@ -1,5 +1,7 @@
 # Use cases
 
+These use cases are extracted from the intent document by Codex and redacted and compacted manually.
+
 ## Scope and format
 
 These use cases are kept up to date for reference when making changes to the application to understand the purpose and scope of user workflows that Volit should support. Use cases serve as input to defining functional requirements. They are not detailed enough to serve as a source of functional requirements. For functional requirements see `functional-requirements.md`.  

@@ -1,5 +1,7 @@
 # Volit Architecture
 
+This document is written by Codex based on the intent document and a tech stack suitable for AI-assisted development.
+
 ## Purpose
 
 This document records the current architectural direction for Volit.
